@@ -8,25 +8,27 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- header section starts -->
     <header class="header">
         <div class="menu container">
-            <a href="#" class="logo">Fashion</a>
-            <input type="checkbox" id="menu"/>
-            <label for="menu">
+            <a href="#" class="logo">Yandie</a>
+            <div class="menu-icon-container">
                 <img src="img/menu.png" class="menu-icon" alt="menu">
-            </label>
+            </div>
             <nav class="navbar">
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
+                    <li><a href="#products">Productos</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
-            <div class="carrito-container">
+            <div class="submenu carrito-container">
                 <ul>
                     <li><img src="./img/car.svg" id="img-carrito" alt="carrito"></li>
                     <div id="carrito">
@@ -41,16 +43,16 @@
                             </thead>
                             <tbody></tbody>
                         </table>
-                        <a href="#" id="vaciar-carrito" class="btn-clear">Vaciar carrito</a>
+                        <a href="#" id="vaciar-carrito" class="btn btn-clear">Vaciar carrito</a>
                     </div>
                 </ul>
             </div>
         </div>
         <div class="header-content container">
-            <div class="header-img">
+            <div class="header-content-img">
                 <img src="img/right.png" alt="">
             </div>
-            <div class="header-text">
+            <div class="header-content-txt">
                 <h1>Ofertas especiales</h1>
                 <p>Estrena las mejores prendas</p>
                 <a href="#" class="btn">Ver mas</a>
@@ -65,7 +67,7 @@
             </div>
             <div class="ofert-txt">
                 <h3>Producto 1</h3>
-                <a href="#" class="btn">Mas informacion</a>
+                <a href="#" class="btn">Informacion</a>
             </div>
         </div>
         <div class="ofert-2">
@@ -74,7 +76,7 @@
             </div>
             <div class="ofert-txt">
                 <h3>Producto 2</h3>
-                <a href="#" class="btn">Mas informacion</a>
+                <a href="#" class="btn">Informacion</a>
             </div>
         </div>
         <div class="ofert-3">
@@ -83,12 +85,12 @@
             </div>
             <div class="ofert-txt">
                 <h3>Producto 3</h3>
-                <a href="#" class="btn">Mas informacion</a>
+                <a href="#" class="btn">Informacion</a>
             </div>
         </div>
     </section>
 
-    <main class="products container" id="lista-1">
+    <main class="products container" id="products">
         <h2>Productos</h2>
         <div class="products-content">
             <div class="product">
@@ -97,7 +99,7 @@
                     <h3>Elisyum</h3>
                     <p>Calidad premium</p>
                     <p class="precio">$220</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                    <a href="#" class="agregar-carrito btn" data-id="1">Agregar al carrito</a>
                 </div>
             </div>
             <div class="product">
@@ -106,7 +108,7 @@
                     <h3>Elisyum</h3>
                     <p>Calidad premium</p>
                     <p class="precio">$220</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                    <a href="#" class="agregar-carrito btn" data-id="2">Agregar al carrito</a>
                 </div>
             </div>
             <div class="product">
@@ -115,7 +117,7 @@
                     <h3>Elisyum</h3>
                     <p>Calidad premium</p>
                     <p class="precio">$220</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                    <a href="#" class="agregar-carrito btn" data-id="3">Agregar al carrito</a>
                 </div>
             </div>
             <div class="product">
@@ -124,7 +126,7 @@
                     <h3>Elisyum</h3>
                     <p>Calidad premium</p>
                     <p class="precio">$220</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                    <a href="#" class="agregar-carrito btn" data-id="4">Agregar al carrito</a>
                 </div>
             </div>
             <div class="product">
@@ -133,7 +135,7 @@
                     <h3>Elisyum</h3>
                     <p>Calidad premium</p>
                     <p class="precio">$220</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                    <a href="#" class="agregar-carrito btn" data-id="5">Agregar al carrito</a>
                 </div>
             </div>
             <div class="product">
@@ -142,7 +144,7 @@
                     <h3>Elisyum</h3>
                     <p>Calidad premium</p>
                     <p class="precio">$220</p>
-                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                    <a href="#" class="agregar-carrito btn" data-id="6">Agregar al carrito</a>
                 </div>
             </div>
         </div>
