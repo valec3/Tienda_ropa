@@ -288,6 +288,53 @@ th,td{
     font-family: var(--fuente2);
     text-transform: uppercase;
 }
+
+.footer{
+    padding: 2rem 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.link h3{
+    font-size: 1.3rem;
+    font-family: var(--fuente2);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.link>div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.link a{
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px){
     .header .navbar{
         display: none;
